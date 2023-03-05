@@ -1,0 +1,238 @@
+    .view {
+        height: 100vh;
+        display: grid;
+        grid-template-areas: 'warning' 'header' 'main' 'footer';
+        grid-template-columns: auto;
+    }
+    
+    .App {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin: 60px auto;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgb(50, 63, 63);
+        box-shadow: 8px 10px 50px;
+    }
+    
+    .App h1 {
+        text-align: center;
+        color: #FFD700;
+        text-transform: uppercase;
+    }
+    
+    .mini-title {
+        font-size: 22px;
+        color: #FFD700;
+        text-transform: capitalize;
+    }
+    
+    .mini-title:hover {
+        text-shadow: 0 10px 50px #FFD700;
+    }
+    
+    .form {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    
+    .form TextField {
+        padding: 10px;
+        width: 80%;
+    }
+    
+    .form .btn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+        border-radius: 5px;
+        padding: 12px;
+        background: #29e750;
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    .form .btn:hover {
+        background: #1ed944;
+    }
+    
+    .form .btn .icon {
+        padding-right: 10px;
+        font-size: 33px;
+    }
+    
+    .todo-input {
+        width: 60%;
+        outline: none;
+        background: #696b6b;
+        color: #fff !important;
+    }
+    
+    .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+        color: #fff !important;
+    }
+    
+    .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+        border-radius: 5px !important;
+    }
+    
+    .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+        color: #fff !important;
+    }
+    
+    .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+        color: #fff !important;
+    }
+    
+    .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+        color: #fff !important;
+    }
+    
+    .todo-listItem {
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .todo-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .todo-item .gb {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .item-content {
+        font-size: 20px;
+        width: 60%;
+        color: #fff;
+        padding-left: 2%;
+        text-transform: capitalize;
+    }
+    
+    .item-content-statue {
+        width: 45%;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #fff;
+        padding-left: 2%;
+    }
+    
+    .titles {
+        padding: 15px;
+        display: inline-flex;
+        justify-content: space-around;
+    }
+    
+    .update {
+        margin-right: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+        border-radius: 5px;
+        padding: 12px;
+        background: #1eb1d9;
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    .update:hover {
+        background: #139bc1;
+    }
+    
+    .delete {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+        border-radius: 5px;
+        padding: 12px;
+        background: #f03131;
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    .delete:hover {
+        background: #d42424;
+    }
+    
+    .cancel {
+        border: none;
+        background: none;
+        font-size: 20px;
+        font-weight: 700;
+        color: #1ed944;
+    }
+    
+    .delete-all {
+        border: none;
+        background: none;
+        font-size: 20px;
+        font-weight: 700;
+        color: #d42424;
+    }
+    
+    .update-form {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .update-new {
+        width: 60%;
+        border-radius: 5px;
+        border: dimgrey solid 1px;
+        outline: none;
+        padding: 10px;
+    }
+    
+    .select-update {
+        width: 12%;
+        background: #1ed944;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+        outline: none;
+    }
+    
+    .footer {
+        display: grid;
+        justify-content: center;
+        bottom: 0%;
+    }
+    
+    .icon {
+        height: 40px !important;
+        width: 40px !important;
+        color: #139bc1;
+    }
+    
+    .icon-add {
+        height: 30px !important;
+        width: 30px !important;
+    }
+    
+    .icons {
+        display: inline-flex;
+        justify-content: space-around;
+    }
+    
+    .copyr {
+        color: #139bc1;
+        font-size: 18px;
+        font-weight: 600;
+    }

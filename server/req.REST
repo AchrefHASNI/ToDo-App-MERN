@@ -1,0 +1,33 @@
+POST http://localhost:5100/api/item
+Content-Type: application/json
+
+{
+    "item":"this the third task to delete",
+    "statue":["doing"]
+    
+}
+
+####
+GET http://localhost:5100/api/items
+Content-Type: application/json
+
+###
+PUT http://localhost:5100/api/item/63b962c0068b85501f8628a6
+Content-Type: application/json
+
+{
+    "item":"this the third task updated",
+    "statue":["doing"]
+    
+}
+
+###
+
+DELETE  http://localhost:5100/api/item/63b95f475f144841a14319f9
+Content-Type: application/json
+
+
+###
+
+DELETE  http://localhost:5100/api/item
+Content-Type: application/json
